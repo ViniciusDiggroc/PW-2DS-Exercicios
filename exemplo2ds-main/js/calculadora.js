@@ -8,9 +8,7 @@ $("#calcular").click(function() {
     let resultado = calcular(n1, n2, operacao);
 
     // mostrando na interface
-    if(resultado !== undefined) {
         $("#resultado").html("Resultado: "  + resultado);
-    }
 });
 
 function limpar() {
